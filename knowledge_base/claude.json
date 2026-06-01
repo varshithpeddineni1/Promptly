@@ -1,0 +1,65 @@
+{
+  "tool": "claude",
+  "prompts": [
+    {
+      "id": "claude_001",
+      "category": "analysis",
+      "subcategory": "nuanced",
+      "description": "Nuanced analysis",
+      "prompt": "Provide a thorough nuanced analysis of [TOPIC]. Consider: multiple perspectives, potential biases, empirical evidence, counterarguments, ethical considerations, practical implications.",
+      "tags": [
+        "analysis",
+        "nuanced",
+        "balanced"
+      ]
+    },
+    {
+      "id": "claude_002",
+      "category": "writing",
+      "subcategory": "editing",
+      "description": "Professional editing",
+      "prompt": "Edit and improve this text: [TEXT]. Focus on: clarity, flow, grammar, word choice, structure, tone. Provide: edited version, explanation of changes, further suggestions.",
+      "tags": [
+        "editing",
+        "writing",
+        "grammar"
+      ]
+    },
+    {
+      "id": "claude_003",
+      "category": "research",
+      "subcategory": "comprehensive",
+      "description": "Deep research",
+      "prompt": "Research everything known about [TOPIC]. Structure: overview, history, current knowledge, debates, applications, future outlook. Be accurate and thorough.",
+      "tags": [
+        "research",
+        "comprehensive",
+        "thorough"
+      ]
+    },
+    {
+      "id": "claude_004",
+      "category": "coding",
+      "subcategory": "explanation",
+      "description": "Code explanation",
+      "prompt": "Explain this code to a beginner: [CODE]. Include: what it does, how it works step by step, why each part exists, common use cases, potential improvements.",
+      "tags": [
+        "code",
+        "explanation",
+        "learning"
+      ]
+    },
+    {
+      "id": "claude_005",
+      "category": "brainstorm",
+      "subcategory": "creative",
+      "description": "Creative brainstorm",
+      "prompt": "Brainstorm creative ideas for [TOPIC]. Generate 10 unique ideas ranging from conventional to wildly creative. For each: description, why it could work, potential challenges.",
+      "tags": [
+        "brainstorm",
+        "creative",
+        "ideas"
+      ]
+    }
+  ]
+}

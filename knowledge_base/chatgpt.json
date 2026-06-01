@@ -1,0 +1,65 @@
+{
+  "tool": "chatgpt",
+  "prompts": [
+    {
+      "id": "cgpt_001",
+      "category": "writing",
+      "subcategory": "email",
+      "description": "Professional email",
+      "prompt": "You are an expert business communication specialist. Write a professional email for: [SITUATION]. Tone: professional. Length: 150-200 words. Include clear subject line and call to action.",
+      "tags": [
+        "email",
+        "professional",
+        "business"
+      ]
+    },
+    {
+      "id": "cgpt_002",
+      "category": "coding",
+      "subcategory": "review",
+      "description": "Code review",
+      "prompt": "You are a senior software engineer at Google. Review this code: [CODE]. Provide: quality score, security issues, performance problems, improvements, refactored version.",
+      "tags": [
+        "code",
+        "review",
+        "engineering"
+      ]
+    },
+    {
+      "id": "cgpt_003",
+      "category": "analysis",
+      "subcategory": "business",
+      "description": "Business analysis",
+      "prompt": "You are a McKinsey consultant. Analyze: [SITUATION]. Provide: executive summary, key findings, root cause, 3 recommendations, implementation roadmap.",
+      "tags": [
+        "business",
+        "analysis",
+        "strategy"
+      ]
+    },
+    {
+      "id": "cgpt_004",
+      "category": "creative",
+      "subcategory": "story",
+      "description": "Creative story",
+      "prompt": "You are a bestselling fiction author. Write a compelling story about: [TOPIC]. Requirements: hook in first sentence, build tension, unexpected twist, 500 words.",
+      "tags": [
+        "creative",
+        "story",
+        "fiction"
+      ]
+    },
+    {
+      "id": "cgpt_005",
+      "category": "marketing",
+      "subcategory": "copy",
+      "description": "Marketing copy",
+      "prompt": "You are an expert copywriter. Write marketing copy for: [PRODUCT]. Include: attention headline, 3 key benefits, social proof, strong CTA. Use AIDA framework.",
+      "tags": [
+        "marketing",
+        "copy",
+        "advertising"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "tool": "sora",
+  "prompts": [
+    {
+      "id": "sora_001",
+      "category": "cinematic",
+      "subcategory": "nature",
+      "description": "Nature documentary",
+      "prompt": "Cinematic nature documentary footage of [SUBJECT]. Slow motion, dramatic lighting, golden hour, shallow depth of field, 4K, National Geographic aesthetic, 10 seconds.",
+      "tags": [
+        "nature",
+        "documentary",
+        "cinematic"
+      ]
+    },
+    {
+      "id": "sora_002",
+      "category": "product",
+      "subcategory": "commercial",
+      "description": "Product commercial",
+      "prompt": "Professional product commercial for [PRODUCT]. Dynamic camera movements, premium lighting, clean minimalist background, hero shots, luxury aesthetic, 15 seconds.",
+      "tags": [
+        "product",
+        "commercial",
+        "marketing"
+      ]
+    },
+    {
+      "id": "sora_003",
+      "category": "timelapse",
+      "subcategory": "urban",
+      "description": "City timelapse",
+      "prompt": "Stunning timelapse of [CITY] from sunrise to sunset. Camera slowly panning, dramatic clouds, city lights turning on, golden hour glow, 4K cinematic, 10 seconds.",
+      "tags": [
+        "timelapse",
+        "city",
+        "urban"
+      ]
+    },
+    {
+      "id": "sora_004",
+      "category": "abstract",
+      "subcategory": "artistic",
+      "description": "Abstract art video",
+      "prompt": "Abstract art video with [DESCRIPTION]. Fluid organic movements, vibrant transitioning colors, hypnotic patterns, 4K resolution, 10 second seamless loop.",
+      "tags": [
+        "abstract",
+        "art",
+        "loop"
+      ]
+    },
+    {
+      "id": "sora_005",
+      "category": "story",
+      "subcategory": "narrative",
+      "description": "Short narrative film",
+      "prompt": "Short narrative film scene of [SCENE]. Cinematic composition, professional lighting, meaningful camera movement, emotional atmosphere, film grain, 15 seconds.",
+      "tags": [
+        "narrative",
+        "film",
+        "story"
+      ]
+    }
+  ]
+}

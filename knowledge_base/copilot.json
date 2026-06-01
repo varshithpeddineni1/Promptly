@@ -1,0 +1,65 @@
+{
+  "tool": "copilot",
+  "prompts": [
+    {
+      "id": "cop_001",
+      "category": "function",
+      "subcategory": "api",
+      "description": "REST API endpoint",
+      "prompt": "# Create REST API endpoint\n# Method: [GET/POST/PUT/DELETE]\n# Route: /api/[resource]\n# Input: [description]\n# Output: [description]\n# Include: error handling, validation, HTTP status codes, docstring",
+      "tags": [
+        "api",
+        "rest",
+        "endpoint"
+      ]
+    },
+    {
+      "id": "cop_002",
+      "category": "class",
+      "subcategory": "oop",
+      "description": "Class implementation",
+      "prompt": "# Create class [ClassName]\n# Properties: [list]\n# Methods: [list]\n# Include: __init__, type hints, docstrings, input validation",
+      "tags": [
+        "class",
+        "oop",
+        "python"
+      ]
+    },
+    {
+      "id": "cop_003",
+      "category": "algorithm",
+      "subcategory": "optimization",
+      "description": "Optimized algorithm",
+      "prompt": "# Implement optimized algorithm for [DESCRIPTION]\n# Time complexity: O([target])\n# Space complexity: O([target])\n# Handle edge cases, add complexity comments",
+      "tags": [
+        "algorithm",
+        "optimization",
+        "performance"
+      ]
+    },
+    {
+      "id": "cop_004",
+      "category": "test",
+      "subcategory": "unit",
+      "description": "Unit tests",
+      "prompt": "# Write comprehensive unit tests for [FUNCTION]\n# Include: happy path, edge cases, error cases\n# Use pytest framework\n# Aim for 100% coverage",
+      "tags": [
+        "test",
+        "unit",
+        "pytest"
+      ]
+    },
+    {
+      "id": "cop_005",
+      "category": "database",
+      "subcategory": "query",
+      "description": "Database operations",
+      "prompt": "# Create database operations for [ENTITY]\n# Include: CRUD operations\n# Use SQLAlchemy ORM\n# Add error handling\n# Include connection pooling",
+      "tags": [
+        "database",
+        "sql",
+        "orm"
+      ]
+    }
+  ]
+}

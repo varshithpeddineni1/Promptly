@@ -1,0 +1,23 @@
+{
+  "tool": "cursor",
+  "version": "latest",
+  "description": "Cursor AI code editor",
+  "prompts": [
+    {
+      "id": "cur_001",
+      "category": "refactoring",
+      "subcategory": "cleanup",
+      "description": "Code refactoring",
+      "prompt": "Refactor this code to improve: Readability and maintainability Performance and efficiency Error handling and edge cases Code organization and structure Remove duplication (DRY principle) Add comprehensive comments Improve variable and function names. Explain each major change made.",
+      "tags": ["refactor", "cleanup", "improve", "code"]
+    },
+    {
+      "id": "cur_002",
+      "category": "debugging",
+      "subcategory": "fix",
+      "description": "Debug and fix",
+      "prompt": "Debug this code and fix all issues: Identify root cause of each bug Explain why each bug occurs Provide fixed version Add defensive programming Suggest tests to prevent regression. List all bugs found with line numbers.",
+      "tags": ["debug", "fix", "bug", "error"]
+    }
+  ]
+}

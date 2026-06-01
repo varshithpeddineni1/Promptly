@@ -1,0 +1,65 @@
+{
+  "tool": "midjourney",
+  "prompts": [
+    {
+      "id": "mj_001",
+      "category": "photography",
+      "subcategory": "portrait",
+      "description": "Professional headshot",
+      "prompt": "professional corporate headshot, confident businessperson, neutral background, studio lighting, sharp focus, 85mm lens --ar 1:1 --v 6 --q 2",
+      "tags": [
+        "portrait",
+        "professional",
+        "headshot"
+      ]
+    },
+    {
+      "id": "mj_002",
+      "category": "landscape",
+      "subcategory": "nature",
+      "description": "Epic mountain landscape",
+      "prompt": "epic mountain landscape at golden hour, dramatic clouds, snow capped peaks, volumetric lighting, 8k, National Geographic style --ar 16:9 --v 6 --q 2",
+      "tags": [
+        "landscape",
+        "mountain",
+        "nature"
+      ]
+    },
+    {
+      "id": "mj_003",
+      "category": "art",
+      "subcategory": "digital",
+      "description": "Cyberpunk city",
+      "prompt": "cyberpunk city at night, neon lights, flying vehicles, holographic ads, cinematic, blade runner aesthetic --ar 16:9 --v 6 --style raw",
+      "tags": [
+        "cyberpunk",
+        "city",
+        "neon"
+      ]
+    },
+    {
+      "id": "mj_004",
+      "category": "logo",
+      "subcategory": "minimal",
+      "description": "Minimalist logo",
+      "prompt": "minimalist logo design, clean geometric shapes, professional branding, vector style, white background --ar 1:1 --v 6 --style raw",
+      "tags": [
+        "logo",
+        "minimal",
+        "branding"
+      ]
+    },
+    {
+      "id": "mj_005",
+      "category": "product",
+      "subcategory": "commercial",
+      "description": "Product photography",
+      "prompt": "luxury product photography, minimalist white background, dramatic side lighting, sharp details, commercial quality --ar 1:1 --v 6 --q 2",
+      "tags": [
+        "product",
+        "commercial",
+        "luxury"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "tool": "gemini",
+  "prompts": [
+    {
+      "id": "gem_001",
+      "category": "multimodal",
+      "subcategory": "analysis",
+      "description": "Image analysis",
+      "prompt": "Analyze this image in detail. Provide: comprehensive description, identify text, analyze colors and composition, identify objects, emotional tone, notable elements, potential use cases.",
+      "tags": [
+        "image",
+        "analysis",
+        "multimodal"
+      ]
+    },
+    {
+      "id": "gem_002",
+      "category": "research",
+      "subcategory": "deep",
+      "description": "Deep research",
+      "prompt": "Research [TOPIC] comprehensively. Structure: executive summary, key facts, historical context, current developments, multiple perspectives, future outlook, practical applications.",
+      "tags": [
+        "research",
+        "comprehensive",
+        "information"
+      ]
+    },
+    {
+      "id": "gem_003",
+      "category": "coding",
+      "subcategory": "generation",
+      "description": "Code generation",
+      "prompt": "Generate production-ready code for [REQUIREMENT]. Include: clean implementation, error handling, documentation, unit tests, usage examples. Language: [LANGUAGE].",
+      "tags": [
+        "code",
+        "generation",
+        "programming"
+      ]
+    },
+    {
+      "id": "gem_004",
+      "category": "summary",
+      "subcategory": "document",
+      "description": "Document summary",
+      "prompt": "Summarize this document: [DOCUMENT]. Provide: executive summary, key points, important data, conclusions, action items. Format as structured bullet points.",
+      "tags": [
+        "summary",
+        "document",
+        "analysis"
+      ]
+    },
+    {
+      "id": "gem_005",
+      "category": "translation",
+      "subcategory": "localization",
+      "description": "Translation",
+      "prompt": "Translate and localize [CONTENT] from [SOURCE] to [TARGET LANGUAGE]. Preserve: tone, cultural nuances, idioms, formatting. Note any cultural adaptations made.",
+      "tags": [
+        "translation",
+        "localization",
+        "language"
+      ]
+    }
+  ]
+}

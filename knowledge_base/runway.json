@@ -1,0 +1,65 @@
+{
+  "tool": "runway",
+  "prompts": [
+    {
+      "id": "run_001",
+      "category": "transformation",
+      "subcategory": "style",
+      "description": "Style transfer",
+      "prompt": "Transform this video into [STYLE] aesthetic. Maintain original motion. Apply consistent color grading. Smooth frame transitions. Professional film quality.",
+      "tags": [
+        "style",
+        "transform",
+        "video"
+      ]
+    },
+    {
+      "id": "run_002",
+      "category": "generation",
+      "subcategory": "abstract",
+      "description": "Abstract video",
+      "prompt": "Generate abstract video featuring [DESCRIPTION]. Fluid movements, vibrant color palette, hypnotic patterns, 4K resolution, 10 second loop.",
+      "tags": [
+        "abstract",
+        "generative",
+        "loop"
+      ]
+    },
+    {
+      "id": "run_003",
+      "category": "cinematic",
+      "subcategory": "dramatic",
+      "description": "Dramatic scene",
+      "prompt": "Cinematic dramatic scene of [DESCRIPTION]. Moody atmospheric lighting, slow motion elements, film grain texture, color graded, emotional impact, 10 seconds.",
+      "tags": [
+        "cinematic",
+        "dramatic",
+        "moody"
+      ]
+    },
+    {
+      "id": "run_004",
+      "category": "product",
+      "subcategory": "showcase",
+      "description": "Product showcase",
+      "prompt": "Elegant product showcase video for [PRODUCT]. 360 degree rotation, premium lighting, clean background, particle effects, brand colors, 15 second loop.",
+      "tags": [
+        "product",
+        "showcase",
+        "elegant"
+      ]
+    },
+    {
+      "id": "run_005",
+      "category": "nature",
+      "subcategory": "atmospheric",
+      "description": "Atmospheric nature",
+      "prompt": "Atmospheric nature video of [SCENE]. Ethereal fog effects, dramatic lighting shifts, slow camera drift, cinematic color grading, peaceful mood, 15 seconds.",
+      "tags": [
+        "nature",
+        "atmospheric",
+        "ethereal"
+      ]
+    }
+  ]
+}

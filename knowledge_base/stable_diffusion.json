@@ -1,0 +1,70 @@
+{
+  "tool": "stable_diffusion",
+  "prompts": [
+    {
+      "id": "sd_001",
+      "category": "portrait",
+      "subcategory": "cinematic",
+      "description": "Cinematic portrait",
+      "prompt": "cinematic portrait of [SUBJECT], dramatic lighting, film grain, anamorphic lens flare, color graded, professional photography, sharp focus, bokeh, 8k, photorealistic",
+      "negative_prompt": "blurry, low quality, distorted, watermark",
+      "tags": [
+        "portrait",
+        "cinematic",
+        "dramatic"
+      ]
+    },
+    {
+      "id": "sd_002",
+      "category": "landscape",
+      "subcategory": "fantasy",
+      "description": "Fantasy landscape",
+      "prompt": "epic fantasy landscape of [SCENE], volumetric lighting, god rays, ultra detailed, 8k, trending on artstation, by Greg Rutkowski, masterpiece",
+      "negative_prompt": "low quality, blurry, bad composition",
+      "tags": [
+        "landscape",
+        "fantasy",
+        "epic"
+      ]
+    },
+    {
+      "id": "sd_003",
+      "category": "character",
+      "subcategory": "anime",
+      "description": "Anime character",
+      "prompt": "anime character [DESCRIPTION], by Makoto Shinkai, detailed eyes, beautiful lighting, vibrant colors, cel shading, professional illustration, high quality",
+      "negative_prompt": "realistic, 3d render, low quality, bad anatomy",
+      "tags": [
+        "anime",
+        "character",
+        "illustration"
+      ]
+    },
+    {
+      "id": "sd_004",
+      "category": "concept",
+      "subcategory": "scifi",
+      "description": "Sci-fi concept",
+      "prompt": "sci-fi concept art of [SUBJECT], futuristic technology, dramatic lighting, ultra detailed, cinematic composition, 8k, trending on artstation",
+      "negative_prompt": "low quality, blurry, simple, amateur",
+      "tags": [
+        "scifi",
+        "concept",
+        "futuristic"
+      ]
+    },
+    {
+      "id": "sd_005",
+      "category": "product",
+      "subcategory": "commercial",
+      "description": "Product render",
+      "prompt": "professional product render of [PRODUCT], studio lighting, clean background, sharp details, commercial quality, photorealistic, 8k",
+      "negative_prompt": "blurry, low quality, distorted",
+      "tags": [
+        "product",
+        "render",
+        "commercial"
+      ]
+    }
+  ]
+}

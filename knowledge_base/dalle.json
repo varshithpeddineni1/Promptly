@@ -1,0 +1,65 @@
+{
+  "tool": "dalle",
+  "prompts": [
+    {
+      "id": "dalle_001",
+      "category": "illustration",
+      "subcategory": "children",
+      "description": "Childrens book illustration",
+      "prompt": "A charming childrens book illustration of [SUBJECT] in a whimsical colorful style. Soft watercolor textures, friendly characters, warm pastel colors, magical elements.",
+      "tags": [
+        "illustration",
+        "children",
+        "whimsical"
+      ]
+    },
+    {
+      "id": "dalle_002",
+      "category": "realistic",
+      "subcategory": "portrait",
+      "description": "Photorealistic portrait",
+      "prompt": "An ultra-photorealistic portrait of [SUBJECT]. Professional studio photography with dramatic lighting. Sharp focus, shallow depth of field, Phase One camera quality.",
+      "tags": [
+        "portrait",
+        "realistic",
+        "studio"
+      ]
+    },
+    {
+      "id": "dalle_003",
+      "category": "art",
+      "subcategory": "impressionist",
+      "description": "Impressionist painting",
+      "prompt": "A beautiful impressionist oil painting of [SUBJECT] in the style of Claude Monet. Loose brushstrokes, dappled light, vibrant colors, museum quality.",
+      "tags": [
+        "impressionist",
+        "painting",
+        "monet"
+      ]
+    },
+    {
+      "id": "dalle_004",
+      "category": "concept",
+      "subcategory": "futuristic",
+      "description": "Futuristic concept art",
+      "prompt": "Futuristic concept art of [SUBJECT] set in 2150. Advanced technology, bioluminescent elements, optimistic future, cinematic lighting, 8K quality.",
+      "tags": [
+        "futuristic",
+        "concept",
+        "scifi"
+      ]
+    },
+    {
+      "id": "dalle_005",
+      "category": "logo",
+      "subcategory": "modern",
+      "description": "Modern logo",
+      "prompt": "A professional modern logo for [BRAND] in [INDUSTRY]. Clean minimalist design, memorable icon, works in color and black and white, contemporary typography.",
+      "tags": [
+        "logo",
+        "brand",
+        "minimal"
+      ]
+    }
+  ]
+}
