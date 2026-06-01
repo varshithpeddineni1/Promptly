@@ -1,11 +1,10 @@
 groq
 streamlit
-chromadb
+chromadb==0.4.24
 langchain
 langchain-community
 python-dotenv
 sentence-transformers
-langchain-groq
+protobuf==3.20.3
 pydantic
 plotly
-pypdf2
